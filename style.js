@@ -23,5 +23,18 @@ export default StyleSheet.create({
         padding: 5,
         margintop: 25,
         marginBottom: 10
+    },
+    itemContainer: {
+        flexDirection: 'row',
+        marginBottom: 10,
+        alignItems: 'center'
+    },
+    image: {
+        width: 100,
+        height: 150
+    },
+    textContainer: {
+        flex: 1,
+        paddingLeft: 10
     }
 })
