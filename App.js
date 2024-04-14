@@ -5,10 +5,10 @@ import { createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 import { createNativeStackNavigator} from '@react-navigation/native-stack'
 import { FontAwesome } from '@expo/vector-icons'
 
-import Home from './componant/Home';
-import About from './componant/About';
-import Search from './componant/Search';
-import Result from './componant/Result';
+import Home from './component/Home';
+import About from './component/About';
+import Search from './component/Search';
+import Result from './component/Result';
 import style from './style';
 
 const Tab = createBottomTabNavigator()
